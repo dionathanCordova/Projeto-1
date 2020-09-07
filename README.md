@@ -1,5 +1,5 @@
+![](./images/testePageBg.png)
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Teste Frontend" />
 
   &#xa0;
 
@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-Describe your project
+Projeto de test de front-end empresa Palmsoft
 
 ## :sparkles: Features ##
 
@@ -81,7 +81,7 @@ $ cd teste-frontend
 $ yarn
 
 # Run the project
-$ yarn start
+$ yarn run:app
 
 # The server will initialize in the <http://localhost:3000>
 ```
