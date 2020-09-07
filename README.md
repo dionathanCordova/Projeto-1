@@ -39,7 +39,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/dionathanCordova" target="_blank">Author</a>
 </p>
 
 <br>
@@ -50,19 +50,19 @@ Projeto de test de front-end empresa Palmsoft
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Página login;\
+:heavy_check_mark: Página login
 
 Página inicial, para login na aplicação.
 
-:heavy_check_mark: Página Cadastro;\
+:heavy_check_mark: Página Cadastro
 
 Página onde é possível criar uma conta e assim armazenalda no servido do json-server.
 
-:heavy_check_mark: Página Forget password;\
+:heavy_check_mark: Página Forget password
 
 Página para informar um email, assim será enviado um email para o qual foi informado, este serviço utiliza nodemailer com o serviço do gmail.
 
-:heavy_check_mark: Página Reset de senha;
+:heavy_check_mark: Página Reset de senha
 
 Após acessa o link que será enviado para o email, abre-se uma pagina onde é possivel informar a nova senha.
 
@@ -79,8 +79,8 @@ The following tools were used in this project:
 - [Heroku](www.heroku.com)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Nodemailer](https://nodemailer.com/about/)
-- [jsonServer](https://www.npmjs.com/package/json-server)
-- [concurrently](https://www.npmjs.com/package/concurrently)
+- [JsonServer](https://www.npmjs.com/package/json-server)
+- [Concurrently](https://www.npmjs.com/package/concurrently)
 
 ## :white_check_mark: Requirements ##
 
