@@ -9,28 +9,28 @@
 <h1 align="center">Teste Frontend</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/dionathanCordova/teste-frontend-deepen?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/dionathanCordova/teste-frontend-palmsoft?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/dionathanCordova/teste-frontend-deepen?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/dionathanCordova/teste-frontend-palmsoft?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/dionathanCordova/teste-frontend-deepen?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/dionathanCordova/teste-frontend-palmsoft?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/dionathanCordova/teste-frontend-deepen?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/dionathanCordova/teste-frontend-palmsoft?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/dionathanCordova/teste-frontend-deepen?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/dionathanCordova/teste-frontend-palmsoft?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/dionathanCordova/teste-frontend-deepen?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/dionathanCordova/teste-frontend-palmsoft?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/dionathanCordova/teste-frontend-deepen?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/dionathanCordova/teste-frontend-palmsoft?color=56BEB8" /> -->
 </p>
 
-<!-- Status -->
+Status
 
-<!-- <h4 align="center"> 
+<h4 align="center"> 
 	🚧  Teste Frontend 🚀 Under construction...  🚧
 </h4> 
 
-<hr> -->
+<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -90,7 +90,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/dionathanCordova/teste-frontend-deepen
+$ git clone https://github.com/dionathanCordova/teste-frontend-palmsoft
 
 # Access
 $ cd teste-frontend
@@ -101,7 +101,7 @@ $ yarn
 # Run the project
 $ yarn run:app
 
-# The server will initialize in the <http://localhost:3000>
+The server will initialize in the <http://localhost:3000>
 ```
 
 ## :memo: License ##
