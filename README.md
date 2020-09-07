@@ -24,7 +24,6 @@
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/dionathanCordova/teste-frontend-palmsoft?color=56BEB8" /> -->
 </p>
 
-Status
 
 <h4 align="center"> 
 	🚧  Teste Frontend 🚀 Under construction...  🚧
@@ -93,7 +92,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 $ git clone https://github.com/dionathanCordova/teste-frontend-palmsoft
 
 # Access
-$ cd teste-frontend
+$ cd teste-frontend-palmsoft
 
 # Install dependencies
 $ yarn
