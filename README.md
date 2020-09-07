@@ -50,19 +50,37 @@ Projeto de test de front-end empresa Palmsoft
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Página login;\
+
+Página inicial, para login na aplicação.
+
+:heavy_check_mark: Página Cadastro;\
+
+Página onde é possível criar uma conta e assim armazenalda no servido do json-server.
+
+:heavy_check_mark: Página Forget password;\
+
+Página para informar um email, assim será enviado um email para o qual foi informado, este serviço utiliza nodemailer com o serviço do gmail.
+
+:heavy_check_mark: Página Reset de senha;
+
+Após acessa o link que será enviado para o email, abre-se uma pagina onde é possivel informar a nova senha.
+
+:heavy_check_mark: Página Land;
+
+Após efetuar o login na aplicação, o usuário é redirecionado para uma landpage.
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [Node.js](https://nodejs.org/en/)
+- [Heroku](www.heroku.com)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Nodemailer](https://nodemailer.com/about/)
+- [jsonServer](https://www.npmjs.com/package/json-server)
+- [concurrently](https://www.npmjs.com/package/concurrently)
 
 ## :white_check_mark: Requirements ##
 
