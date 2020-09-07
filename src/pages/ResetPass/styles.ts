@@ -85,13 +85,9 @@ export const PassInfo = styled.div`
 		transition: filter .2s,-webkit-filter .2s;
 	}
 `
+
 export const Background = styled.div`
 	flex: 1;
 	background: url(${TesteBg}) no-repeat center;
 
-`
-
-export const Error = styled.p`
-	color: red;
-	font-size: 12px;
 `

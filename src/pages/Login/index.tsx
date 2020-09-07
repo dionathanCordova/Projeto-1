@@ -1,32 +1,52 @@
-import React, { useEffect, useState, FormEvent, useCallback } from 'react';
-import { useHistory, Link } from 'react-router-dom';
+import React, { useState, FormEvent, useCallback, useContext } from 'react';
+import { useHistory, Link} from 'react-router-dom';
 
 import Input from '../../components/Input';
+import Button from '../../components/Button';
+
+import AuthContext from '../../contexts';
 
 import { 
     Container, 
     Content, 
     AnimationContainer, 
-    // Background,
-    // PassInfo,
-    // FooterInfo,
+    Background,
+    TitlePage,
+    PassInfo,
+    Error
 } from './styles';
 
 const Login: React.FC = () => {
     const [userEmail, setEmail] = useState('');
     const [userPassword, setPassword] = useState('');
+    const [disabled, setDisabled] = useState(false);
+    const [error, setError] = useState('');
 
-    const handleSubmid = useCallback(() => {
+    const history = useHistory();
 
-    }, [])
+    const { signIn } = useContext(AuthContext)
+
+    const handleSubmid = useCallback(async (e: FormEvent) => {
+        e.preventDefault();
+        const login = await signIn(userEmail, userPassword);
+
+       console.log(login);  
+       if(login.status) {
+           history.push('/landpage');
+       }else{
+           setError('Email ou senha incorretos.')
+       }
+
+    }, [history, signIn, userEmail, userPassword])
 
     return(
         <Container>
-             <Content>
+            <Background />
+            <Content>
                 <AnimationContainer>
                     
                     <form action="" onSubmit={handleSubmid}>
-                        <h1>Fazer login</h1>
+                        <TitlePage>Fazer login</TitlePage>
 
                         <Input 
                             label='Email'
@@ -44,19 +64,16 @@ const Login: React.FC = () => {
                             onChange={(e) => {setPassword(e.target.value)}}
                         />
 
-                        {/* <PassInfo>
-                            <label className="container">Lembrar-me
-                                <input type="checkbox" checked={rememberMe} onChange={handleRememberMe} onClick={handleRememberMe} />
-                                <span className="checkmark"></span> 
-                            </label>
+                        <Error>{error}</Error>
+                        <PassInfo>
+                            <Link to="creat-account">Criar uma conta</Link>
                             <Link to="forgot-password">Esqueci minha senha</Link>
                         </PassInfo>
-                        
-                        <Button disabled={disabled} type="submit">Entrar</Button> */}
+                        <Button disabled={disabled} type="submit">Entrar</Button>
 
                     </form>
                 </AnimationContainer>
-             </Content>
+            </Content>
         </Container>
     )
 }

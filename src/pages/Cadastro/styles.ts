@@ -3,7 +3,6 @@ import styled, { keyframes } from 'styled-components';
 import TesteBg from '../../assets/images/testePageBg.png';
 
 export const Container = styled.div`
-    height: 100vh;
     width: 100%;
 
     display: flex;
@@ -19,24 +18,39 @@ export const Container = styled.div`
 export const Content = styled.div`
     display: flex;
 	flex-direction: row;
-	align-items: center;
-	
-	justify-content: center;
+    justify-content: center;
+    align-items:center;
 	width: 100%;
-	max-width: 40%;
+    max-width: 40%;
 
-	background: #fff;
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+
+    ::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    
+    background: #fff;
+    
+	h3{
+		border-bottom: 3rem;
+	}
+
 
 	@media(max-width: 800px) {
 		width: 100%;
 		max-width: 100%;
 		margin-top: 4rem;
 		margin-bottom: 4rem;
-	}
+    }
+
 `
 
 export const TitlePage = styled.h3`
     margin-bottom: 3rem;
+    font-weight: 700;
 `
 
 const appearFromRight = keyframes`
@@ -51,15 +65,21 @@ const appearFromRight = keyframes`
 `
 
 export const AnimationContainer = styled.div`
-	display: flex;
+  	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    justify-content: center;
 
+    height: 100vh;
+   
+  
+
+    padding-bottom: 10rem;
 	animation: ${appearFromRight} 1s;
 	
 	form{
-		width: 340px;
+        height: 60vh;
+        width: 340px;
+     
 		
 		h1{
 			margin-bottom: 24px;
@@ -67,15 +87,16 @@ export const AnimationContainer = styled.div`
 		}
 	}
 `
+
+
 export const PassInfo = styled.div`
 	display: flex;
 	font-size: 1.2rem;
 	color: var(--color-text-complement);
 	padding-top: 2rem;
 
-	justify-content: space-between;
-
 	a {
+		margin-left: auto;
 		padding-top: 0.8rem;
 		font-size: 1.2rem;
 		color: var(--color-text-complement);
@@ -85,13 +106,9 @@ export const PassInfo = styled.div`
 		transition: filter .2s,-webkit-filter .2s;
 	}
 `
+
 export const Background = styled.div`
 	flex: 1;
 	background: url(${TesteBg}) no-repeat center;
 
-`
-
-export const Error = styled.p`
-	color: red;
-	font-size: 12px;
 `
