@@ -36,18 +36,12 @@ const Cadastro: React.FC = () => {
     const [disabled, setDisabled] = useState(false);
     const [agree, setAgree] = useState(false);
 
-    const { signed } = useContext(AuthContext);
     const hitorry = useHistory();
-
-    useEffect(() => {
-        console.log(signed);
-    }, [signed])
 
     const handleSubmid = useCallback(async (e: FormEvent) => {
         e.preventDefault();
 
         const findEmail = await api.get(`users?email=${userEmail}`);
-        console.log(findEmail.data);
         
         if(findEmail.data.length > 0) {
             alert('Email already in use')
@@ -135,7 +129,7 @@ const Cadastro: React.FC = () => {
                             <Link to="/">Já possuo cadastro</Link>
                         </PassInfo>
                        
-                        <Button disabled={disabled} type="submit">Entrar</Button>
+                        <Button disabled={disabled} type="submit">Cadastrar</Button>
 
                     </form>
                 </AnimationContainer>

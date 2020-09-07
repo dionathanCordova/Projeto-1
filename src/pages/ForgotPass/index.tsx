@@ -25,7 +25,6 @@ const Forgot: React.FC = () => {
     const handleSubmid = useCallback(async (e: FormEvent) => {
         e.preventDefault();
 
-       console.log(userEmail);  
        if(userEmail !== '') {
 
             const user = await api.get(`users?email=${userEmail}`);
@@ -34,7 +33,6 @@ const Forgot: React.FC = () => {
                 return;
             }else{
                 const userId = user.data[0].id;
-                console.log(userId);
 
                 axios.post('https://nodejs-apiemail.herokuapp.com/forgot_teste', {
                     email: userEmail,

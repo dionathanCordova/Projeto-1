@@ -30,7 +30,6 @@ const Login: React.FC = () => {
         e.preventDefault();
         const login = await signIn(userEmail, userPassword);
 
-       console.log(login);  
        if(login.status) {
            history.push('/landpage');
        }else{

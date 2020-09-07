@@ -22,7 +22,6 @@ const Land: React.FC = () => {
     const history = useHistory();
 
     useEffect(() => {
-        console.log(signed);
         if(!signed) {
             history.push('/');
         }
