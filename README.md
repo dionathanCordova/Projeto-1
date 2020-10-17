@@ -1,4 +1,4 @@
-#![](./images/testePageBg.png)
+
 <div align="center" id="top"> 
 
   &#xa0;
