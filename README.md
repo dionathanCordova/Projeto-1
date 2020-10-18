@@ -9,13 +9,13 @@
 <h1 align="center">Projeto#1</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/dionathanCordova/teste-frontend-palmsoft?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/dionathanCordova/projeto#01?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/dionathanCordova/teste-frontend-palmsoft?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/dionathanCordova/projeto#01?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/dionathanCordova/teste-frontend-palmsoft?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/dionathanCordova/projeto#01?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/dionathanCordova/teste-frontend-palmsoft?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/dionathanCordova/projeto#01?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/dionathanCordova/teste-frontend-palmsoft?color=56BEB8" /> -->
 
@@ -45,7 +45,7 @@
 
 ## :dart: About ##
 
-Projeto de test de front-end empresa Palmsoft
+Projeto de test
 
 ## :sparkles: Features ##
 
@@ -108,7 +108,7 @@ The server will initialize in the <http://localhost:3000>
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/dionathanCordova" target="_blank">Dionathan de Córdova</a>
+Made with by <a href="https://github.com/dionathanCordova" target="_blank">Dionathan de Córdova</a>
 
 &#xa0;
 
